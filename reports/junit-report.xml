@@ -5,19 +5,19 @@
             <property name="URI" value="C:/Users/v-akumar/Documents/workspace/sample-exercise/features/automationExercise.feature">
             </property>
         </properties>
-        <testcase name="Given the user is on landing page" classname="validating-landing-page;verifying-value-labels-and-text" time="5.0020072">
+        <testcase name="Given the user is on landing page" classname="validating-landing-page;verifying-value-labels-and-text" time="4.878909401">
         </testcase>
-        <testcase name="When page containing value label and text is displayed" classname="validating-landing-page;verifying-value-labels-and-text" time="0.009966899">
+        <testcase name="When page containing value label and text is displayed" classname="validating-landing-page;verifying-value-labels-and-text" time="0.006826801">
         </testcase>
-        <testcase name="Then count of values displayed  on the page is equal to 5" classname="validating-landing-page;verifying-value-labels-and-text" time="0.0001684">
+        <testcase name="Then count of values displayed  on the page is equal to 5" classname="validating-landing-page;verifying-value-labels-and-text" time="0.0004033">
         </testcase>
-        <testcase name="And values on the page is greater than Zero" classname="validating-landing-page;verifying-value-labels-and-text" time="0.002432199">
+        <testcase name="And values on the page is greater than Zero" classname="validating-landing-page;verifying-value-labels-and-text" time="0.0003688">
         </testcase>
-        <testcase name="And values are formatted as currencies" classname="validating-landing-page;verifying-value-labels-and-text" time="0.0010647">
+        <testcase name="And values are formatted as currencies" classname="validating-landing-page;verifying-value-labels-and-text" time="0.000473">
         </testcase>
-        <testcase name="And total balance is same as values listed on the page" classname="validating-landing-page;verifying-value-labels-and-text" time="0.000056201">
+        <testcase name="And total balance is correct based on the values listed on the screen" classname="validating-landing-page;verifying-value-labels-and-text" time="0.000940901">
         </testcase>
-        <testcase name="And toal balance is equal to the sum of the all the values listed on the page" classname="validating-landing-page;verifying-value-labels-and-text" time="0.000782001">
+        <testcase name="And total balance is equal to the sum of the all the values listed on the page" classname="validating-landing-page;verifying-value-labels-and-text" time="0.001126901">
         </testcase>
     </testsuite>
 </testsuites>

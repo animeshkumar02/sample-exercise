@@ -3,8 +3,9 @@ module.exports = function() {
     // this.World = World;
   
     this.Given(/^the user is on landing page$/, function () {
+      let selector = page.exercisePage.elements.items;
       return helpers.loadPage(page.exercisePage.url).then(function() {
-        return page.exercisePage.landingPage();
+        return driver.wait(until.elementLocated(selector), 3000);
       });
     });
   
@@ -17,22 +18,24 @@ module.exports = function() {
   
     this.Then(/^count of values displayed  on the page is equal to (\d+)$/, function (count) {
       let countValues = 5;
-      // return page.exercisePage.assertCountValues();
+      return page.exercisePage.assertCountValues(countValues);
     });
   
     this.Then(/^values on the page is greater than Zero$/, function () {
-      return page.exercisePage.valueGreaterThanZero();
+      let flag = page.exercisePage.valueGreaterThanZero();
     });
   
     this.Then(/^values are formatted as currencies$/, function () {
       return page.exercisePage.valuesFormatCurrency();
     });
   
-    this.Then(/^total balance is same as values listed on the page$/, function () {
-      // Write code here that turns the phrase above into concrete actions
+    this.Then(/^total balance is correct based on the values listed on the screen$/, function () {
+      // This test case is same as the last test case so I am calling the same 
+      // function I wrote for verifying the Total Balance
+      return page.exercisePage.totalBalance();
     });
   
-    this.Then(/^toal balance is equal to the sum of the all the values listed on the page$/, function () {
+    this.Then(/^total balance is equal to the sum of the all the values listed on the page$/, function () {
       return page.exercisePage.totalBalance();
     });
   

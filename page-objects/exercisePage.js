@@ -1,7 +1,6 @@
 module.exports = {
 
-    // url: 'https://www.exercise1.com/values',
-    url: 'http://www.localhost:3000',
+    url: 'https://www.exercise1.com/values',
 
     elements: {
         valueLabel1: 'div#lbl_val_1',
@@ -16,24 +15,28 @@ module.exports = {
         valueText1: 'div#txt_val_5',
         valueLabelTotal: By.css('div#lbl_val_ttl'),
         valueTextTotal: By.css('div#txt_ttl_val'),
-        itemsList: 'div[class="items"]'
+        itemsList: 'div[class="items"]',
+        items: By.css('div#items')
     },
 
-    assertCountValues: function() {
-        driver.findElements(By.css(id*="#lbl_val")).then(function(elements){
+    getValuesSize: function(){
+        let lblValueSize = 0;
+        driver.findElements(By.xpath("//*[contains(@id, 'lbl_val')]")).then(function(elements){
+            lblValueSize = elements.length;
+        });
+        return lblValueSize;
+    },
+
+    assertCountValues: function(countValues) {
+        driver.findElements(By.xpath("//*[contains(@id, 'lbl_val')]")).then(function(elements){
             let length = elements.length;
-            console.log(length);
             assert.equal(length, countValues, 'Count of values is correct');
         });
-        
-    },
-
-    landingPage: function() {
-        driver.wait(until.elementLocated(By.css(id="div#items")), 3000);
     },
 
     valueGreaterThanZero: function() {
-        for(let i=1; i<=5; i++){
+        let valueSize = page.exercisePage.getValuesSize();
+        for(let i=1; i<=valueSize; i++){
                 driver.findElement(By.id(`txt_val_${i}`)).then(function(elem){
                     elem.getText().then(function(text){
                         let textValue = Number(text.replace(/[^0-9.-]+/g,""));
@@ -45,8 +48,10 @@ module.exports = {
     },
 
     valuesFormatCurrency: function(){
+        let valueSize = page.exercisePage.getValuesSize();
+        // Regex to match the currency format
         let regex1 = /^\$?(([1-9]\d{0,2}(,\d{3})*)|0)?\.\d{1,2}$/;
-        for(let i=1; i<=5; i++){
+        for(let i=1; i<=valueSize; i++){
             driver.findElement(By.id(`txt_val_${i}`)).then(function(elem){
                 elem.getText().then(function(text){
                     assert.match(text, regex1, 'Currency Format Matches');
@@ -63,7 +68,6 @@ module.exports = {
                 elem.getText().then(function(text){
                     let textValue = Number(text.replace(/[^0-9.-]+/g,""));
                     totalBalance += textValue;
-                    // console.log(totalBalance);
                 })
             });
         }

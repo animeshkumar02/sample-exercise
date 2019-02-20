@@ -13,7 +13,7 @@
             "name": "the user is on landing page",
             "result": {
               "status": "passed",
-              "duration": 5002007200
+              "duration": 4878909401
             },
             "line": 4,
             "match": {
@@ -26,11 +26,11 @@
             "name": "page containing value label and text is displayed",
             "result": {
               "status": "passed",
-              "duration": 9966899
+              "duration": 6826801
             },
             "line": 5,
             "match": {
-              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:11"
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:12"
             }
           },
           {
@@ -39,11 +39,11 @@
             "name": "count of values displayed  on the page is equal to 5",
             "result": {
               "status": "passed",
-              "duration": 168400
+              "duration": 403300
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:18"
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:19"
             }
           },
           {
@@ -52,11 +52,11 @@
             "name": "values on the page is greater than Zero",
             "result": {
               "status": "passed",
-              "duration": 2432199
+              "duration": 368800
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:23"
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:24"
             }
           },
           {
@@ -65,37 +65,37 @@
             "name": "values are formatted as currencies",
             "result": {
               "status": "passed",
-              "duration": 1064700
+              "duration": 473000
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:27"
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:28"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "total balance is same as values listed on the page",
+            "name": "total balance is correct based on the values listed on the screen",
             "result": {
               "status": "passed",
-              "duration": 56201
+              "duration": 940901
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:31"
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:32"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "toal balance is equal to the sum of the all the values listed on the page",
+            "name": "total balance is equal to the sum of the all the values listed on the page",
             "result": {
               "status": "passed",
-              "duration": 782001
+              "duration": 1126901
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:35"
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:38"
             }
           },
           {
@@ -103,8 +103,8 @@
             "keyword": "After ",
             "result": {
               "status": "failed",
-              "duration": 407798799,
-              "error_message": "AssertionError: expected 997000 to equal 1000000\n    at C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\page-objects\\exercisePage.js:73:24\n    at ManagedPromise.invokeCallback_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at asyncRun (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27)\n    at C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+              "duration": 244935399,
+              "error_message": "AssertionError: Total Balance should be equal to sum of individual values: expected 997000 to equal 1000000\n    at C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\page-objects\\exercisePage.js:78:24\n    at ManagedPromise.invokeCallback_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at asyncRun (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27)\n    at C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             },
             "hidden": true,
             "match": {
