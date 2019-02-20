@@ -18,6 +18,9 @@
   "homepage": "https://github.com/animeshkumar02/sample-exercise#readme",
   "dependencies": {
     "assert": "^1.4.1",
+    "cryptiles": "^4.1.3",
+    "hoek": "^6.1.2",
+    "merge": "^1.2.1",
     "selenium-cucumber-js": "^1.6.2"
   }
 }
