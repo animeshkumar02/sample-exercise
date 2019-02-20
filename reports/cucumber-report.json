@@ -1,0 +1,126 @@
+[
+  {
+    "elements": [
+      {
+        "id": "validating-landing-page;verifying-value-labels-and-text",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verifying value labels and text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the user is on landing page",
+            "result": {
+              "status": "passed",
+              "duration": 5002007200
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "page containing value label and text is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9966899
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "count of values displayed  on the page is equal to 5",
+            "result": {
+              "status": "passed",
+              "duration": 168400
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "values on the page is greater than Zero",
+            "result": {
+              "status": "passed",
+              "duration": 2432199
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "values are formatted as currencies",
+            "result": {
+              "status": "passed",
+              "duration": 1064700
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "total balance is same as values listed on the page",
+            "result": {
+              "status": "passed",
+              "duration": 56201
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "toal balance is equal to the sum of the all the values listed on the page",
+            "result": {
+              "status": "passed",
+              "duration": 782001
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\step-definitions\\automation-exercise.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 407798799,
+              "error_message": "AssertionError: expected 997000 to equal 1000000\n    at C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\page-objects\\exercisePage.js:73:24\n    at ManagedPromise.invokeCallback_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at asyncRun (C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27)\n    at C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\v-akumar\\Documents\\workspace\\sample-exercise\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validating-landing-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Validating landing page",
+    "tags": [],
+    "uri": "C:/Users/v-akumar/Documents/workspace/sample-exercise/features/automationExercise.feature"
+  }
+]

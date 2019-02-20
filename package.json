@@ -1,0 +1,23 @@
+{
+  "name": "sample-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animeshkumar02/sample-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animeshkumar02/sample-exercise/issues"
+  },
+  "homepage": "https://github.com/animeshkumar02/sample-exercise#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "selenium-cucumber-js": "^1.6.2"
+  }
+}

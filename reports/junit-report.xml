@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="validating-landing-page;verifying-value-labels-and-text" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/v-akumar/Documents/workspace/sample-exercise/features/automationExercise.feature">
+            </property>
+        </properties>
+        <testcase name="Given the user is on landing page" classname="validating-landing-page;verifying-value-labels-and-text" time="5.0020072">
+        </testcase>
+        <testcase name="When page containing value label and text is displayed" classname="validating-landing-page;verifying-value-labels-and-text" time="0.009966899">
+        </testcase>
+        <testcase name="Then count of values displayed  on the page is equal to 5" classname="validating-landing-page;verifying-value-labels-and-text" time="0.0001684">
+        </testcase>
+        <testcase name="And values on the page is greater than Zero" classname="validating-landing-page;verifying-value-labels-and-text" time="0.002432199">
+        </testcase>
+        <testcase name="And values are formatted as currencies" classname="validating-landing-page;verifying-value-labels-and-text" time="0.0010647">
+        </testcase>
+        <testcase name="And total balance is same as values listed on the page" classname="validating-landing-page;verifying-value-labels-and-text" time="0.000056201">
+        </testcase>
+        <testcase name="And toal balance is equal to the sum of the all the values listed on the page" classname="validating-landing-page;verifying-value-labels-and-text" time="0.000782001">
+        </testcase>
+    </testsuite>
+</testsuites>
